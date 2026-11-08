@@ -1,0 +1,33 @@
+{
+  "prepared_on": "2026-11-08",
+  "source_sha256": {
+    "library_agent.py": "7a98db08cf08bb56ca4dee137719d95e323df544d810a4d73ec1ea06a1535ad5",
+    "library_agent_full.py": "c94ee4eb65d1f1653fb0b9cd7f5a98a27eaac6b5d810adac9b91433820047f67",
+    "verify_phase5.py": "986d745cc3ee3e83f6a852abf2b07e2ea023cc757d4ecbe649883c0eb700ce49",
+    "verify_author_search.py": "63bd970c31cd62a5e13a2f7bc625e3e5f3c1521354d49ea9ffa273cfa1aea992",
+    "verify_thanks.py": "d930a9c509742020823f310c9e5eca0a7615c47801a9112183827b62f47a89ec"
+  },
+  "upload_allowlist": [
+    "library_agent.py",
+    "library_agent_full.py",
+    "verify_phase5.py",
+    "verify_author_search.py",
+    "verify_thanks.py",
+    "README.md",
+    "requirements.txt",
+    ".gitignore",
+    "CHECKS.json",
+    "source_manifest.json"
+  ],
+  "files_sha256_excluding_manifest": {
+    "library_agent.py": "7a98db08cf08bb56ca4dee137719d95e323df544d810a4d73ec1ea06a1535ad5",
+    "library_agent_full.py": "c94ee4eb65d1f1653fb0b9cd7f5a98a27eaac6b5d810adac9b91433820047f67",
+    "verify_phase5.py": "986d745cc3ee3e83f6a852abf2b07e2ea023cc757d4ecbe649883c0eb700ce49",
+    "verify_author_search.py": "63bd970c31cd62a5e13a2f7bc625e3e5f3c1521354d49ea9ffa273cfa1aea992",
+    "verify_thanks.py": "d930a9c509742020823f310c9e5eca0a7615c47801a9112183827b62f47a89ec",
+    "README.md": "ead9f828f5f4d4449a6934b96bd376426986b604ab327f7e2a0846499badb8bd",
+    "requirements.txt": "9650ff8b48cb51f71f9be56b8d7e789fc6e2d2b14901c54fc7642bcc33ce5ab4",
+    ".gitignore": "98064f7995a8ee68fdcc61746e271d86ddae5f4a2c9a7ca2705d4e6dc088d3f2",
+    "CHECKS.json": "5e5898bd268f5469828e92ed9fbdc64a5c3ef75ba3fc8a9a597c092e281762e1"
+  }
+}

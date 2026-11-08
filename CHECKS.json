@@ -1,0 +1,67 @@
+{
+  "prepared_on": "2026-11-08",
+  "upload_allowlist": [
+    "library_agent.py",
+    "library_agent_full.py",
+    "verify_phase5.py",
+    "verify_author_search.py",
+    "verify_thanks.py",
+    "README.md",
+    "requirements.txt",
+    ".gitignore",
+    "CHECKS.json",
+    "source_manifest.json"
+  ],
+  "current_source_sha256": "c94ee4eb65d1f1653fb0b9cd7f5a98a27eaac6b5d810adac9b91433820047f67",
+  "package_checks": {
+    "syntax": {
+      "passed": 5,
+      "total": 5
+    },
+    "byte_identical_to_current_sources": true,
+    "mock_suite": {
+      "passed": 36,
+      "total": 36
+    },
+    "author_mock": {
+      "passed": 21,
+      "total": 21
+    },
+    "thanks_mock": {
+      "passed": 19,
+      "total": 19
+    },
+    "actual_model_rerun_during_package_refresh": false
+  },
+  "prior_actual_validation_of_same_thanks_source": {
+    "date": "2026-11-08",
+    "passed": 8,
+    "total": 8,
+    "source_sha256": "c94ee4eb65d1f1653fb0b9cd7f5a98a27eaac6b5d810adac9b91433820047f67",
+    "note": "Recorded earlier for this exact source; not a new package-time model run."
+  },
+  "historical_pre_thanks_source_validation": {
+    "date": "2026-11-07",
+    "source_sha256": "85d9bd078507ec0fa4737b625950b534c1b38eed62f535e7c002321b8e9920d2",
+    "passed": 57,
+    "total": 57,
+    "normal": 49,
+    "blocked": 8,
+    "normal_recovery": 49,
+    "native_final_accepted": 0,
+    "applies_to_current_source": false
+  },
+  "dependency_versions": {
+    "langchain": "1.4.8",
+    "langchain-core": "1.7.4",
+    "langchain-ollama": "1.1.0",
+    "langgraph": "1.2.19",
+    "pydantic": "2.14.2"
+  },
+  "limitations": [
+    "Checks used existing Python3.12.14 environment; clean install not tested.",
+    "Finite test coverage; mock counts are not model accuracy and overlapping suites must not be summed.",
+    "No raw logs, private document content or absolute paths included.",
+    "Pattern scanning cannot guarantee detection of every possible secret."
+  ]
+}
